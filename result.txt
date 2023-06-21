@@ -1,0 +1,149 @@
+
+Matris 0
+x3 = x3 ^ x9
+x9 = x9 ^ x8
+x8 = x8 ^ x6
+x3 = x3 ^ x15    Y5
+x9 = x9 ^ x12
+x3 = x3 ^ x5    Y13
+x1 = x1 ^ x4
+x4 = x4 ^ x11
+x11 = x11 ^ x13
+x1 = x1 ^ x7    Y0
+x14 = x14 ^ x4
+x13 = x13 ^ x12
+x14 = x14 ^ x0    Y9
+x3 = x3 ^ x13
+x3 = x3 ^ x7
+x3 = x3 ^ x0    Y3
+x3 = x3 ^ x12
+x3 = x3 ^ x10    Y4
+x1 = x1 ^ x8
+x1 = x1 ^ x15
+x1 = x1 ^ x0
+x1 = x1 ^ x2    Y1
+x1 = x1 ^ x11
+x1 = x1 ^ x5    Y12
+x7 = x7 ^ x0
+x0 = x0 ^ x9
+x8 = x8 ^ x12
+x7 = x7 ^ x10    Y7
+x0 = x0 ^ x11
+x1 = x1 ^ x14    Y2
+x9 = x9 ^ x6
+x9 = x9 ^ x2    Y6
+x0 = x0 ^ x13
+x13 = x13 ^ x10
+x0 = x0 ^ x6    Y8
+x3 = x3 ^ x8
+x3 = x3 ^ x6
+x3 = x3 ^ x4    Y10
+x4 = x4 ^ x10    Y11
+x15 = x15 ^ x5
+x5 = x5 ^ x11
+x11 = x11 ^ x2
+x15 = x15 ^ x4    Y14
+x14 = x14 ^ x5
+x5 = x5 ^ x8
+x14 = x14 ^ x2
+Toplam XOR sayisi(S-XOR optimizasyonu olmadan) 64
+Toplam XOR sayisi(S-XOR optimizasyonuyla) 46
+
+
+Matris 1
+x3 = x3 ^ x8
+x8 = x8 ^ x13
+x3 = x3 ^ x5
+x3 = x3 ^ x11    Y8
+x8 = x8 ^ x6
+x6 = x6 ^ x12
+x3 = x3 ^ x4    Y12
+x1 = x1 ^ x4
+x4 = x4 ^ x11
+x11 = x11 ^ x2
+x2 = x2 ^ x12
+x1 = x1 ^ x0    Y5
+x11 = x11 ^ x13
+x1 = x1 ^ x7    Y9
+x3 = x3 ^ x7
+x7 = x7 ^ x0
+x0 = x0 ^ x9
+x9 = x9 ^ x13    Y4
+x9 = x9 ^ x8
+x8 = x8 ^ x12
+x7 = x7 ^ x10    Y15
+x1 = x1 ^ x15
+x15 = x15 ^ x0
+x0 = x0 ^ x10    Y0
+x0 = x0 ^ x8
+x15 = x15 ^ x4    Y1
+x15 = x15 ^ x5
+x5 = x5 ^ x12
+x1 = x1 ^ x9    Y2
+x2 = x2 ^ x6
+x6 = x6 ^ x13
+x13 = x13 ^ x10    Y3
+x14 = x14 ^ x3
+x7 = x7 ^ x11    Y6
+x14 = x14 ^ x5
+x5 = x5 ^ x8
+x14 = x14 ^ x2    Y7
+x3 = x3 ^ x9
+x3 = x3 ^ x15    Y10
+x4 = x4 ^ x10
+x1 = x1 ^ x14    Y14
+x14 = x14 ^ x0
+x9 = x9 ^ x6
+Toplam XOR sayisi(S-XOR optimizasyonu olmadan) 61
+Toplam XOR sayisi(S-XOR optimizasyonuyla) 43
+
+
+Matris 2
+x14 = x14 ^ x3
+x3 = x3 ^ x5
+x5 = x5 ^ x11
+x14 = x14 ^ x4    Y1
+x5 = x5 ^ x0
+x0 = x0 ^ x9    Y13
+x1 = x1 ^ x15
+x15 = x15 ^ x9
+x9 = x9 ^ x12
+x1 = x1 ^ x7    Y11
+x1 = x1 ^ x4
+x1 = x1 ^ x0    Y12
+x15 = x15 ^ x4
+x4 = x4 ^ x5
+x0 = x0 ^ x8
+x8 = x8 ^ x6    Y4
+x6 = x6 ^ x10
+x10 = x10 ^ x12
+x0 = x0 ^ x11    Y10
+x14 = x14 ^ x7
+x7 = x7 ^ x8
+x14 = x14 ^ x0
+x14 = x14 ^ x11    Y6
+x14 = x14 ^ x9
+x14 = x14 ^ x2    Y9
+x3 = x3 ^ x11
+x11 = x11 ^ x6
+x6 = x6 ^ x13
+x13 = x13 ^ x10    Y7
+x5 = x5 ^ x9
+x9 = x9 ^ x10
+x3 = x3 ^ x8
+x3 = x3 ^ x15    Y0
+x8 = x8 ^ x13
+x13 = x13 ^ x12
+x3 = x3 ^ x4    Y2
+x15 = x15 ^ x6    Y3
+x7 = x7 ^ x11
+x11 = x11 ^ x12
+x7 = x7 ^ x2    Y8
+x0 = x0 ^ x10
+x1 = x1 ^ x2    Y14
+x4 = x4 ^ x2
+x2 = x2 ^ x10
+x4 = x4 ^ x13
+Toplam XOR sayisi(S-XOR optimizasyonu olmadan) 68
+Toplam XOR sayisi(S-XOR optimizasyonuyla) 45
+
